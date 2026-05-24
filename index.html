@@ -5,81 +5,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Carezy - Infy App Challenge Showcase</title>
   
-  <!-- Link to Google Fonts (Clean, cute fonts) -->
+  <!-- Friendly Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
 
-  <!-- Link to our simple style.css file -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="page-background">
+<body class="neu-body">
 
-  <!-- Top Navigation Bar -->
+  <!-- Soft 3D Floating Background Accent Designs (These move automatically!) -->
+  <div class="clay-shape shape-one"></div>
+  <div class="clay-shape shape-two"></div>
+  <div class="clay-shape shape-three"></div>
+
+  <!-- Neumorphic Navigation Bar -->
   <div class="navigation-bar">
     <span class="logo-text">Carezy</span>
     <span class="subtitle-text">Infy App Challenge Showcase</span>
   </div>
 
-  <!-- Main Website Content -->
   <div class="website-container">
     
-    <!-- Hero / Top Section -->
+    <!-- Hero Header -->
     <div class="center-text heading-space scroll-fade">
-      <img src="cat-mascot.png" alt="Carezy Cat Mascot" class="mascot-image">
-      <h1 class="main-title text-blue">Carezy</h1>
-      <p class="tagline"><em>Poverty Fighters: Providing a path to recovery & stability</em></p>
+      <img src="cat-mascot.png" alt="Carezy Cat Mascot" class="mascot-image gentle-bob">
+      <h1 class="main-title text-blue" style="margin-top: 20px;">Carezy</h1>
+      <p class="tagline"><em>"Poverty Fighters: Providing a path to recovery & stability"</em></p>
     </div>
 
-    <hr class="divider-line">
+    <!-- The Carezy Ecosystem Matrix (Now with hover movement!) -->
+    <div class="neu-card heading-space scroll-fade">
+      <h3 class="text-blue center-text" style="margin-bottom: 5px;">The Carezy Ecosystem</h3>
+      <p class="center-text small-text" style="margin-bottom: 30px;">Our streamlined, four-pillar framework built to provide a direct path to stability:</p>
+      
+      <div class="matrix-grid">
+        <div class="matrix-box moving-hover">
+          <h4 class="matrix-title text-orange">Immediate Relief</h4>
+          <p class="matrix-text">Consolidates verified local distribution centers for free clothing and clothing drives, removing the guesswork for users in transitional phases.</p>
+        </div>
+        
+        <div class="matrix-box moving-hover">
+          <h4 class="matrix-title text-green">Nutritional Support</h4>
+          <p class="matrix-text">Connects individuals to community kitchens and food pantries with real-time hours, ensuring access to hot meals without geographic barriers.</p>
+        </div>
+        
+        <div class="matrix-box moving-hover">
+          <h4 class="matrix-title text-blue-accent">Emergency Housing</h4>
+          <p class="matrix-text">Maps out nearby safe shelters and temporary housing networks, filtering by immediate vacancy to provide crucial overnight security.</p>
+        </div>
+        
+        <div class="matrix-box moving-hover">
+          <h4 class="matrix-title text-purple">Economic Pathways</h4>
+          <p class="matrix-text">Aggregates entry-level job networks and community mentorship programs, helping users transition from immediate relief to long-term stability.</p>
+        </div>
+      </div>
+    </div>
 
     <!-- The Pitch and Purpose Area -->
     <div class="side-by-side heading-space scroll-fade">
-      <!-- Left Side: The Pitch -->
-      <div class="white-box">
+      <div class="neu-card pressed-hover">
         <h3 class="text-blue">The Pitch</h3>
         <p>Poverty and job insecurities deeply affect many NYC communities and residents. Carezy is designed to change that by offering immediate, streamlined relief. Our mission is to meet our users where they are, providing clear resources to offer relief directly to individuals facing homeless, food, or job insecurities.</p>
       </div>
       
-      <!-- Right Side: Why We Built This -->
-      <div class="white-box">
+      <div class="neu-card pressed-hover">
         <h3 class="text-blue">Why We Built This</h3>
         <p>We wanted to help our peers and neighbors navigate out of vulnerable situations towards systemic stability. Through extensive research, we realized that people in tight schedules or living far from resources need an immediate, dependable tool, which drove us to create Carezy as an all-in-one path to local support networks.</p>
       </div>
     </div>
 
     <!-- User Research Statistics Section -->
-    <div class="white-box heading-space scroll-fade">
+    <div class="neu-card heading-space scroll-fade">
       <h3 class="text-blue center-text">Community User Research</h3>
-      <div class="side-by-side">
-        <div class="gray-stat-box center-text">
+      <div class="side-by-side" style="margin-top: 20px;">
+        <div class="neu-inner-box center-text">
           <h4 class="stat-number text-red">59.4%</h4>
           <p class="stat-description">Of surveyed community members know someone who is financially challenged.</p>
         </div>
-        <div class="gray-stat-box center-text">
-          <h4 class="stat-number text-red">60.4%</h4>
+        <div class="neu-inner-box center-text">
+          <h4 class="stat-number text-blue-accent">60.4%</h4>
           <p class="stat-description">Of surveyed community members know an adult who is currently unemployed.</p>
         </div>
       </div>
     </div>
 
     <!-- Market Research Section -->
-    <div class="white-box light-blue-tint heading-space scroll-fade">
+    <div class="neu-card heading-space scroll-fade tint-blue">
       <h3 class="text-blue center-text">Theme Implementation & Market Research</h3>
-      <div class="side-by-side">
-        <!-- Bad App Designs -->
+      <div class="side-by-side" style="margin-top: 25px;">
         <div class="full-width">
           <h4 class="text-red text-uppercase">The Problem with Competitors</h4>
-          <ul>
+          <ul class="custom-bullet-list red-bullets">
             <li>Overcrowded app designs & unorganized layouts</li>
             <li>Indirect, confusing paths to simple help</li>
             <li>Extremely limited feedback or follow-up status updates</li>
           </ul>
         </div>
-        <!-- Our Better Solution -->
         <div class="full-width">
           <h4 class="text-green text-uppercase">The Carezy Solution</h4>
-          <ul>
+          <ul class="custom-bullet-list green-bullets">
             <li>Accessible, minimalistic design built with soft colors</li>
             <li>A simple, 4-choice journey map (Clothes, Meals, Shelters, Jobs)</li>
             <li>In-app live chat assistance & smart notification alerts</li>
@@ -90,27 +115,23 @@
 
     <!-- Meet The Team Section -->
     <div class="heading-space scroll-fade">
-      <h3 class="text-blue center-text">Meet the Poverty Fighters Team</h3>
+      <h3 class="text-blue center-text" style="margin-bottom: 25px;">Meet the Poverty Fighters Team</h3>
       <div class="side-by-side">
-        <!-- Marquice -->
         <div class="team-card center-text">
           <img src="marquice.png" alt="Marquice" class="team-photo">
           <h5 class="team-name">Marquice</h5>
           <p class="team-role">Team Lead</p>
         </div>
-        <!-- Brianna -->
         <div class="team-card center-text">
           <img src="brianna.png" alt="Brianna" class="team-photo">
           <h5 class="team-name">Brianna</h5>
           <p class="team-role">UI Designer</p>
         </div>
-        <!-- Ayndrila -->
         <div class="team-card center-text">
           <img src="ayndrila.png" alt="Ayndrila" class="team-photo">
           <h5 class="team-name">Ayndrila</h5>
           <p class="team-role">UX Designer</p>
         </div>
-        <!-- Jose -->
         <div class="team-card center-text">
           <img src="jose.png" alt="Jose" class="team-photo">
           <h5 class="team-name">Jose</h5>
@@ -119,29 +140,33 @@
       </div>
     </div>
 
-    <hr class="divider-line">
-
     <!-- Slide Deck & Prototype Embed Frames -->
     <div class="side-by-side heading-space scroll-fade">
-      <!-- Google Slideshow -->
-      <div class="white-box">
-        <h3 class="text-blue center-text">Slide Deck</h3>
-        <iframe src="https://www.canva.com/design/DAHKnRmTqGw/gUoIIInPu-FHh8AENDLX1w/view" class="embed-frame"></iframe>
+      <div class="neu-card">
+        <h3 class="text-blue center-text" style="margin-bottom: 20px;">Slide Deck</h3>
+        <div class="center-text" style="margin-bottom: 20px;">
+          <a href="YOUR_CANVA_LINK_HERE" target="_blank" class="neu-button-link">
+            Launch Full Presentation
+          </a>
+        </div>
+        <embed src="YOUR_CANVA_LINK_HERE" class="embed-frame" type="text/html">
       </div>
 
-      <!-- Figma Prototype -->
-      <div class="white-box">
-        <h3 class="text-blue center-text">Figma Prototype</h3>
-        <iframe src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/YOUR_LINK_HERE" class="embed-frame"></iframe>
+      <div class="neu-card">
+        <h3 class="text-blue center-text" style="margin-bottom: 20px;">Figma Prototype</h3>
+        <div class="center-text" style="margin-bottom: 20px;">
+          <a href="https://www.figma.com/proto/AHIr4P7QJSQL2adnRizXoS/Poverty-Fighters-InfyApp-Prototype?node-id=27-2&p=f&t=cfJRAoPaeR795H0j-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=168%3A28" target="_blank" class="neu-button-link">
+            Open App Prototype
+          </a>
+        </div>
+        <iframe src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/AHIr4P7QJSQL2adnRizXoS/Poverty-Fighters-InfyApp-Prototype?node-id=27-2&p=f&t=cfJRAoPaeR795H0j-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=168%3A28" class="embed-frame"></iframe>
       </div>
     </div>
 
-  </div> <!-- End Website Container -->
+  </div>
 
-  <!-- Footer Layout -->
   <div class="footer-box center-text">
     <p>&copy; May 2026 Carezy Team. Created for the Infy App Challenge.</p>
-    <p class="small-text">Designed with high color contrast and soft backgrounds for clear visual accessibility.</p>
   </div>
 
 </body>
