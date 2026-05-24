@@ -1,46 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Infy App Challenge</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Carezy - Infy App Challenge Showcase</title>
+  
+  <!-- Link to Google Fonts (Clean, cute fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Link to our simple style.css file -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-light">
-  <nav class="navbar navbar-dark bg-dark mb-4">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Infy App Challenge Showcase</span>
-    </div>
-  </nav>
+<body class="page-background">
 
-  <div class="container text-center">
-    <h1 class="mb-3">Carezy</h1>
-    <p><em>"Insert your catchy tagline or quote here..."</em></p>
-
-    <hr>
-
-    <h3>🎯 Pitch</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae.</p>
-
-    <h3>🌍 Theme Implementation</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac metus vel sapien viverra pulvinar.</p>
-
-    <h3>🧠 Why We Built This</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel gravida sapien.</p>
-
-    <hr>
-
-    <h3>📽️ Slide Deck</h3>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-FAKE-GOOGLE-SLIDE/embed?start=false&loop=false&delayms=3000" width="100%" height="480" frameborder="0" allowfullscreen></iframe>
-
-    <h3 class="mt-4">📱 Figma Prototype</h3>
-    <iframe style="border:1px solid #ccc" width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/FAKE-PROTOTYPE" allowfullscreen></iframe>
-
-    <h3 class="mt-4">🎥 Demo Video (optional)</h3>
-    <video width="80%" controls>
-      <source src="demo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+  <!-- Top Navigation Bar -->
+  <div class="navigation-bar">
+    <span class="logo-text">Carezy</span>
+    <span class="subtitle-text">Infy App Challenge Showcase</span>
   </div>
+
+  <!-- Main Website Content -->
+  <div class="website-container">
+    
+    <!-- Hero / Top Section -->
+    <div class="center-text heading-space scroll-fade">
+      <img src="cat-mascot.png" alt="Carezy Cat Mascot" class="mascot-image">
+      <h1 class="main-title text-blue">Carezy</h1>
+      <p class="tagline"><em>Poverty Fighters: Providing a path to recovery & stability</em></p>
+    </div>
+
+    <hr class="divider-line">
+
+    <!-- The Pitch and Purpose Area -->
+    <div class="side-by-side heading-space scroll-fade">
+      <!-- Left Side: The Pitch -->
+      <div class="white-box">
+        <h3 class="text-blue">The Pitch</h3>
+        <p>Poverty and job insecurities deeply affect many NYC communities and residents. Carezy is designed to change that by offering immediate, streamlined relief. Our mission is to meet our users where they are, providing clear resources to offer relief directly to individuals facing homeless, food, or job insecurities.</p>
+      </div>
+      
+      <!-- Right Side: Why We Built This -->
+      <div class="white-box">
+        <h3 class="text-blue">Why We Built This</h3>
+        <p>We wanted to help our peers and neighbors navigate out of vulnerable situations towards systemic stability. Through extensive research, we realized that people in tight schedules or living far from resources need an immediate, dependable tool, which drove us to create Carezy as an all-in-one path to local support networks.</p>
+      </div>
+    </div>
+
+    <!-- User Research Statistics Section -->
+    <div class="white-box heading-space scroll-fade">
+      <h3 class="text-blue center-text">Community User Research</h3>
+      <div class="side-by-side">
+        <div class="gray-stat-box center-text">
+          <h4 class="stat-number text-red">59.4%</h4>
+          <p class="stat-description">Of surveyed community members know someone who is financially challenged.</p>
+        </div>
+        <div class="gray-stat-box center-text">
+          <h4 class="stat-number text-red">60.4%</h4>
+          <p class="stat-description">Of surveyed community members know an adult who is currently unemployed.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Market Research Section -->
+    <div class="white-box light-blue-tint heading-space scroll-fade">
+      <h3 class="text-blue center-text">Theme Implementation & Market Research</h3>
+      <div class="side-by-side">
+        <!-- Bad App Designs -->
+        <div class="full-width">
+          <h4 class="text-red text-uppercase">The Problem with Competitors</h4>
+          <ul>
+            <li>Overcrowded app designs & unorganized layouts</li>
+            <li>Indirect, confusing paths to simple help</li>
+            <li>Extremely limited feedback or follow-up status updates</li>
+          </ul>
+        </div>
+        <!-- Our Better Solution -->
+        <div class="full-width">
+          <h4 class="text-green text-uppercase">The Carezy Solution</h4>
+          <ul>
+            <li>Accessible, minimalistic design built with soft colors</li>
+            <li>A simple, 4-choice journey map (Clothes, Meals, Shelters, Jobs)</li>
+            <li>In-app live chat assistance & smart notification alerts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meet The Team Section -->
+    <div class="heading-space scroll-fade">
+      <h3 class="text-blue center-text">Meet the Poverty Fighters Team</h3>
+      <div class="side-by-side">
+        <!-- Marquice -->
+        <div class="team-card center-text">
+          <img src="marquice.png" alt="Marquice" class="team-photo">
+          <h5 class="team-name">Marquice</h5>
+          <p class="team-role">Team Lead</p>
+        </div>
+        <!-- Brianna -->
+        <div class="team-card center-text">
+          <img src="brianna.png" alt="Brianna" class="team-photo">
+          <h5 class="team-name">Brianna</h5>
+          <p class="team-role">UI Designer</p>
+        </div>
+        <!-- Ayndrila -->
+        <div class="team-card center-text">
+          <img src="ayndrila.png" alt="Ayndrila" class="team-photo">
+          <h5 class="team-name">Ayndrila</h5>
+          <p class="team-role">UX Designer</p>
+        </div>
+        <!-- Jose -->
+        <div class="team-card center-text">
+          <img src="jose.png" alt="Jose" class="team-photo">
+          <h5 class="team-name">Jose</h5>
+          <p class="team-role">Lead Developer</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider-line">
+
+    <!-- Slide Deck & Prototype Embed Frames -->
+    <div class="side-by-side heading-space scroll-fade">
+      <!-- Google Slideshow -->
+      <div class="white-box">
+        <h3 class="text-blue center-text">Slide Deck</h3>
+        <iframe src="https://canva.link/aoq9s1a39x2fr0d" class="embed-frame"></iframe>
+      </div>
+
+      <!-- Figma Prototype -->
+      <div class="white-box">
+        <h3 class="text-blue center-text">Figma Prototype</h3>
+        <iframe src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/YOUR_LINK_HERE" class="embed-frame"></iframe>
+      </div>
+    </div>
+
+  </div> <!-- End Website Container -->
+
+  <!-- Footer Layout -->
+  <div class="footer-box center-text">
+    <p>&copy; May 2026 Carezy Team. Created for the Infy App Challenge.</p>
+    <p class="small-text">Designed with high color contrast and soft backgrounds for clear visual accessibility.</p>
+  </div>
+
 </body>
 </html>
