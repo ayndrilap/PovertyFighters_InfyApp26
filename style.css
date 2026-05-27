@@ -8,7 +8,7 @@ body.neu-body {
   overflow-x: hidden;
 }
 
-/* --- ACTIVE AUTOMATIC BACKGROUND MOVEMENTS --- */
+/* --- moving background --- */
 .clay-shape {
   position: fixed; 
   border-radius: 50%;
@@ -18,11 +18,10 @@ body.neu-body {
   box-shadow: inset -10px -10px 20px rgba(163, 190, 222, 0.5), 
               10px 10px 20px rgba(163, 190, 222, 0.3),
               inset 5px 5px 10px rgba(255,255,255,0.8);
-  /* Triggers active continuous looping movement */
   animation: active-orbit 20s infinite ease-in-out;
 }
 
-/* Position and distinct speed settings for individual shapes */
+/* Position and speed 4 shapes*/
 .shape-one { 
   width: 140px; 
   height: 140px; 
@@ -47,7 +46,7 @@ body.neu-body {
   animation-delay: -5s;
 }
 
-/* The Active Orbit Engine: Drifts organically in all 4 directions */
+/* moving circles */
 @keyframes active-orbit {
   0% { transform: translateY(0) translateX(0) rotate(0deg); }
   30% { transform: translateY(30px) translateX(25px) rotate(40deg); }
@@ -130,7 +129,7 @@ h2, h3, h4, h5, h6 {
   background-color: #EAF1FA;
 }
 
-/* --- ECOSYSTEM MATRIX GRID --- */
+/* --- MATRIX GRID --- */
 .matrix-grid {
   display: flex;
   flex-wrap: wrap;
@@ -212,10 +211,10 @@ h2, h3, h4, h5, h6 {
 .red-bullets li::before { color: #e11d48; }
 .green-bullets li::before { color: #16a34a; }
 
-/* --- MASCOT CONTAINMENT & ANIMATION RULES --- */
+/* --- MASCOT CONTAINMENT & ANIMATIOn --- */
 .mascot-wrapper {
   display: inline-block;
-  padding: 16px; /* Symmetrical circle structure */
+  padding: 16px; 
   border-radius: 50%;
   background: #E6EEF8;
   box-shadow: 6px 6px 12px #c4cbd3, 
@@ -223,13 +222,12 @@ h2, h3, h4, h5, h6 {
   margin-top: 15px;
 }
 
-/* --- FREE-FLOATING MASCOT ARCHITECTURE --- */
+/* --- mascot --- */
 .mascot-image {
   width: 150px;           
   height: 150px;          
-  object-fit: contain; /* Ensures his head and toes are 100% visible and un-cropped */
+  object-fit: contain; 
   
-  /* Applies the soft 3D neumorphic puff shadow directly to the shape of the cat icon itself */
   filter: drop-shadow(8px 8px 10px #c4cbd3) 
           drop-shadow(-8px -8px 10px #ffffff);
           
@@ -237,7 +235,7 @@ h2, h3, h4, h5, h6 {
   margin-top: 25px;
 }
 
-/* --- THE ACTIVE FLOATING ENGINE --- */
+/* --- floating --- */
 .gentle-bob {
   animation: natural-float 4s infinite ease-in-out;
 }
